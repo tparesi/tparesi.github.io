@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.background-image {
+  background-image: url("/images/cactus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.content {
+  position: fixed;
+  width: 500px;
+  top: 40%;
+  left: 50%;
+  margin-top: -100px;
+  /* Negative half of height. */
+  margin-left: -250px;
+  /* Negative half of width. */ }
+  .content .welcome {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-family: monospace;
+    width: 200px;
+    margin: auto;
+    cursor: pointer; }
