@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+We are a product development consultancy specializing in product management and software development for web and mobile products.

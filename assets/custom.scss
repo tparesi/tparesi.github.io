@@ -1,0 +1,28 @@
+---
+---
+
+.site-header {
+  border-top: none;
+}
+
+.background-image {
+  background: url("./cactus.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+  .background-image {
+    background: url("./cactus.jpg") 25% 75%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.site-footer {
+  padding: 30px 0 0 0;
+}
